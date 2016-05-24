@@ -12,18 +12,19 @@ The main folder on this repo, "UCI HAR Dataset" contains the following files/fol
   measurements.
   5. "test" folder: Folder containing the portion of the data used for testing.
   6. "train" folder: Folder containing the portion of the data used for training.
-  7. "run_analysis.R": Script written in R that performs the following tasks:
+  7. "tidy_data.csv": Comma-separated file with the contents of the "tidy_data" dataframe.
+  8. "tidy_data.txt": Text file with the contents of the "tidy_data" dataframe.
+
+The file "run_analysis.R" performs the following tasks:
       - Merges the training and the test sets to create one data set.
       - Extracts only the measurements on the mean and standard deviation for each measurement.
       - Uses descriptive activity names to name the activities in the data set
       - Appropriately labels the data set with descriptive variable names.
       - From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  8. "tidy_data.csv": Comma-separated file with the contents of the "tidy_data" dataframe.
-  9. "tidy_data.txt": Text file with the contents of the "tidy_data" dataframe.
 
 ## Instructions to Run "run_analysis.R"
 
-- Download the entire "UCI HARD Dataset" folder to your desktop.
-- Navigate to the UCI HARD Dataset folder.
+- Download the entire project folder to your desktop.
 - Launch R Studio and and set your working directory to UCI HAR Dataset folder.
+- Locate and load the file "run_analysis.R"
 - Type source("run_analysis.R") in the command line. 
