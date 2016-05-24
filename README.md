@@ -19,3 +19,10 @@ The main folder on this repo, "UCI HAR Dataset" contains the following files/fol
       - Appropriately labels the data set with descriptive variable names.
       - From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   8. "tidy_data.csv": Comma-separated file with the contents of the "tidy_data" dataframe. 
+
+## Instructions to Run "run_analysis.R"
+
+- Download the entire "UCI HARD Dataset" folder to your desktop.
+- Navigate to the UCI HARD Dataset folder.
+- Launch R Studio and and set your working directory to UCI HAR Dataset folder.
+- Type source("run_analysis.R") in the command line. 
