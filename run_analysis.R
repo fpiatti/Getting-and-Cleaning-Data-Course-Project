@@ -69,10 +69,9 @@ for (subject in subjects){
 # Rename variables in tidy dataset to reflect that these are "mean" values
 names(tidy_data) <- c("Subject", "Activity", vars)
 
-# Write tidy dataset to CSV file
+# Write tidy dataset to CSV and TXT files
 write.csv(tidy_data, paste(getwd(), "tidy_data.csv", sep = "/"))
-
-write.table(tidy_data, paste(getwd(), "tidy_data.txt", sep = "/"), sep="\t")
+write.table(tidy_data, paste(getwd(), "tidy_data.txt", sep = "/"), sep="\t", row.names = FALSE))
 
 
 
