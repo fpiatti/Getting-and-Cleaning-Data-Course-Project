@@ -36,7 +36,7 @@ This file performs the following actions:
   9. Changes the description of the activities in the dataframe from integers in the range [1-6] to the labels shown in "activity_labels.txt".
   10. For each subject and each activity calculates the mean value of each variable and stored in a tidy dataframe.
   11. Renames the variables in the new tidy dataframe to reflect the meaning of the data.
-  12. Writes the tidy dataframe to a comma-separated (csv) file.
+  12. Writes the tidy dataframe to comma-separated (csv) and text (TXT) files.
   
   
   
