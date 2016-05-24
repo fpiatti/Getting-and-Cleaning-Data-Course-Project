@@ -18,7 +18,8 @@ The main folder on this repo, "UCI HAR Dataset" contains the following files/fol
       - Uses descriptive activity names to name the activities in the data set
       - Appropriately labels the data set with descriptive variable names.
       - From the data set in the previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  8. "tidy_data.csv": Comma-separated file with the contents of the "tidy_data" dataframe. 
+  8. "tidy_data.csv": Comma-separated file with the contents of the "tidy_data" dataframe.
+  9. "tidy_data.txt": Text file with the contents of the "tidy_data" dataframe.
 
 ## Instructions to Run "run_analysis.R"
 
