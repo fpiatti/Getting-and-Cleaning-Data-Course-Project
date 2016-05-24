@@ -11,6 +11,8 @@ The actvities performed are:
   - Walking Upstairs.
   - Walking Downstairs.
 
+### Variables
+
 The data captured was composed of 3-axial linear acceleration and 3-axial angular velocity. The raw data was post-processed to 
 remove noise and obtain frequency domain representations of the data. Furthermore the complete set of data was divided into 
 testing and training sets.
